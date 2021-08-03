@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url('Roboto/Roboto-Black.ttf');}
+@font-face {
+    font-family: Roboto-Black-Italic;
+    src: url('Roboto/Roboto-BlackItalic.ttf');}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('Roboto/Roboto-Bold.ttf');}
+@font-face {
+    font-family: Roboto-Bold-Italic;
+    src: url('Roboto/Roboto-BoldItalic.ttf');}
+@font-face {
+    font-family: Roboto-Italic;
+    src: url('Roboto/Roboto-Italic.ttf');}
+@font-face {
+    font-family: Roboto-Light;
+    src: url('Roboto/Roboto-Light.ttf');}
+@font-face {
+    font-family: Roboto-Light-Italic;
+    src: url('Roboto/Roboto-LightItalic.ttf');}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url('Roboto/Roboto-Medium.ttf');}
+@font-face {
+    font-family: Roboto-Medium-Italic;
+    src: url('Roboto/Roboto-MediumItalic.ttf');}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('Roboto/Roboto-Regular.ttf');}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url('Roboto/Roboto-Thin.ttf');}
+@font-face {
+    font-family: Roboto-Thin-Italic;
+    src: url('Roboto/Roboto-ThinItalic.ttf');}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Roboto-Regular;
+    background-color: whitesmoke;
+}
+
+div{
+    display: inline-block;
+    
+}
+#div-superior{
+    margin-top: 1%;
+    width: 100%;
+    
+}
+
+#seta{
+    width: 1.4%;
+    padding-left: 0%;
+    cursor: pointer;
+}
+
+#endereco_entrega{
+    text-align: center;
+}
+
+#searcher{
+    width: 100%;
+    margin-top: 6%;
+}
+
+.subtitulo{
+    font-family: Roboto-Thin;
+}
+
+.meu-btn{
+    text-align: left;    
+    border: none;
+    width: 100%;
+    background-color: none;
+}
+
+
+.minha-localizacao{
+    margin-left: -6px;
+    margin-top: 12px;
+    width: 23px;
+    height: 23px;
+}
+
+.meu-label{
+    margin-left: -6px;
+    margin-top: 26px;
+    width: 23px;
+    height: 23px;
+
+}
+
+.aux{
+    padding-left: 15px;
+}
+
+.titulo{
+    font-family: Roboto-Bold;
+    color: #5F5D5D;
+}
+
+.searching{
+    border: none;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+
+#procura{
+    align-items: center;
+    display: flex;
+    background-color: whitesmoke;
+    padding: 1.6%;
+    border-radius: 5px;
+}
+
+.mais{
+    position: relative;
+    margin-top: 2%;
+    align-self: center;
+}
+
+.fundo{
+    background-color: white;
+    cursor: pointer;
+}
+
+.fundo:hover {
+    background-color: #ECE8E8 ;
+
+}
+
+.cabecalho{
+    background-color: white;
+}
+
+h1{
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+h2{
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
